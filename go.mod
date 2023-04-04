@@ -72,9 +72,10 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0
 	go.mozilla.org/sops/v3 v3.7.3
 	golang.org/x/crypto v0.0.0-20220427172511-eb4f295cb31f // indirect
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
 	golang.org/x/oauth2 v0.0.0-20220722155238-128564f6959c
 	golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde // indirect
-	golang.org/x/sys v0.0.0-20220825204002-c680a09ffe64
+	golang.org/x/sys v0.5.0
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.21.14
@@ -83,3 +84,5 @@ require (
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/klog v1.0.0
 )
+
+replace golang.org/x/net => golang.org/x/net v0.7.0
